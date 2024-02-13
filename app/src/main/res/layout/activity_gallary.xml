@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/images"
+        android:src="@drawable/gloves"
+        android:background="@drawable/img_bg"
+        android:layout_margin="20dp"
+        />
+    <TextView
+        android:id="@+id/img_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/img_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gloves"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_price"
+        android:text="120$"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_dec"
+        android:text="I put on my gardening gloves and dig in the soil."
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:justificationMode="inter_word"
+        android:layout_margin="15dp"/>
+    <Button
+        android:id="@+id/cartbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:hint="Add to cart"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@drawable/button"
+        android:layout_gravity="center"
+        android:width="150dp"/>
+
+</LinearLayout>

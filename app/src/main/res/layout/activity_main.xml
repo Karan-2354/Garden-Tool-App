@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_yellow"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/garden"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Garden Tool"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="We are selling Best Garden Tools For Every Gardener"
+    android:textSize="20dp"
+    android:textColor="@color/black"
+    android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="0dp"/>
+
+    <Button
+        android:id="@+id/h_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:hint="Login"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@drawable/button"
+        android:layout_gravity="center"
+        android:width="150dp"/>
+    <Button
+        android:id="@+id/h_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:shadowColor="@color/black"
+        android:hint="Sign Up"
+        android:textStyle="bold"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_bg"
+        android:width="150dp"/>
+
+</LinearLayout>

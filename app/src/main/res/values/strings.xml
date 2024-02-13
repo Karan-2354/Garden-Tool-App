@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">plant_app</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone No</string>
+    <string name="done">Done</string>
+</resources>
